@@ -1,0 +1,32 @@
+* C:\Users\Antonio Jose\Documents\UPV\TCO\practicas\Schematic1.stl written on Tue May 29 22:46:12 2018
+* by Stimulus Editor -- Evaluation Version 9.1
+;!Stimulus Get
+;! C Digital A Digital B Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 4us
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS B STIM (1, 1) ;! CLOCK 2meg 0.5 0 0
++   +0s 0
++   +250ns 1
++   Repeat Forever
++      +250ns 0
++      +250ns 1
++   EndRepeat
+.STIMULUS A STIM (1, 1) ;! CLOCK 4meg 0.5 0 0
++   +0s 0
++   +125ns 1
++   Repeat Forever
++      +125ns 0
++      +125ns 1
++   EndRepeat
+.STIMULUS C STIM (1, 1) ;! CLOCK 1Meg 0.5 0 0
++   +0s 0
++   +500ns 1
++   Repeat Forever
++      +500ns 0
++      +500ns 1
++   EndRepeat

@@ -1,0 +1,16 @@
+.model MbreakN-X NMOS vto=2V kp=2m 
+*$
+.model Rbreak-X RES R=1k 
+*$
+.model MbreakN-X1 NMOS vto=1V kp=50u 
+*$
+.model MbreakN-X2 NMOS vto=1V kp=15u 
+*$
+.model MbreakN-X3 NMOS vto=1V kp=15u 
+*$
+.model MbreakP-X PMOS vto=-1V kp=15u 
+*$
+.model MbreakP-X1 PMOS vto=-1V kp=15u 
+*$
+.model MbreakN-X4 NMOS vto=1V kp=15u 
+*$

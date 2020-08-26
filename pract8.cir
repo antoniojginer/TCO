@@ -1,0 +1,24 @@
+* C:\Users\Antonio Jose\Documents\UPV\TCO\practicas\pract8.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Wed May 30 10:27:07 2018
+
+
+
+** Analysis setup **
+.tran 0ns 100ns
+.OP 
+.LIB "C:\Users\Antonio Jose\Documents\UPV\TCO\practicas\pract8.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "pract8.net"
+.INC "pract8.als"
+
+
+.probe
+
+
+.END
